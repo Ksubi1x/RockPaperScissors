@@ -1,6 +1,6 @@
 Rock Paper Scissors
 
-Deploy link: 
+Deploy link: https://ksubi1x.github.io/RockPaperScissors/
 
 Technologies used:
 
