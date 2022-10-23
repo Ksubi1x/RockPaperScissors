@@ -12,7 +12,7 @@ Technologies used:
 
 Tools:
 
--Visual Studio Code
+- Visual Studio Code
 
 Outcome:
 
