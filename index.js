@@ -2,6 +2,8 @@ let playerEl = document.getElementById("player");
 
 let botEl = document.getElementById("bot");
 
+let winnerEl = document.getElementById("winner")
+
 const scoreLimit = 5
 
 var botScore = 0
@@ -95,10 +97,13 @@ function roll3(){
 function checkScore(playerScore, botScore){
     if (playerScore == scoreLimit){
         console.log("You win, Player wins.")
+        winnerEl.innerText = "Winner: Player"
+
         resetGame()
     }
     else if (botScore == scoreLimit){
-        console.log("YOU LOSE THE GAME")
+        console.log("You lose, AI wins.")
+        winnerEl.innerText = "Winner: Player"
         resetGame()
     }
 }
