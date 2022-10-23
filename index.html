@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main class = main-content>
+        <div class="title">
+            <h1>Rock Paper Scissors </h1>
+        </div>
+        <div class="names">
+            <h1>You</h1>
+            <h1>Bot</h1>
+        </div>
+        <div class="score">
+            <label class="label">
+                <h2 id="player">0</h2>
+                <h2 id="bot">0</h2>
+            </label>
+        </div>
+        <div class="begin-text">
+            <p>Welcome to Rock Paper Scissors!</p><br>
+            <p>Click any of the options below and see if you can beat the A.I !</p><br>
+            <p id="winner">Winner: </p>
+        </div>
+        <div class="buttons">
+            <div class="buttons2">
+                <button type="button" id="rock" onclick="roll()">Rock</button>
+                <button type="button" id="paper" onclick="roll2()">Paper</button>
+                <button type="button" id="scissors" onclick="roll3()">Scissors</button>
+            </div>
+            
+        </div>
+    </main>
+
+<script src="index.js"></script>
+</body>
+
+</html>
